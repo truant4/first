@@ -1,14 +1,8 @@
+from utils import estPremier
+
 n = int(input("Entrer une nombre: "))
-print(n)
-premier = True
 
-
-for diviseur in range(2,n):
-    reste = n % diviseur
-    if reste == 0:
-        print("n, n'est pas premier car divisible par", diviseur)
-        premier = False
-
-if premier:
+if estPremier(n):
+    print("n, n'est pas premier")
+else:
     print(n, "est premier")
-         
