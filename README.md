@@ -1,2 +1,3 @@
 # first
-first project
+first project 
+algorithme : euclide 
